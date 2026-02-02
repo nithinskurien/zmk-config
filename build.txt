@@ -1,7 +1,7 @@
 # Build
-west build -p -b "corne_choc_pro_right" -S "studio-rpc-usb-uart" -- -DZMK_CONFIG=/workspaces/zmk-config/config -DSHIELD="nice_view" -DZMK_EXTRA_MODULES='/workspaces/zmk-config'
 west build -p -b "corne_choc_pro_left" -S "studio-rpc-usb-uart" -- -DZMK_CONFIG=/workspaces/zmk-config/config -DSHIELD="nice_view" -DZMK_EXTRA_MODULES='/workspaces/zmk-config'
+west build -p -b "corne_choc_pro_right" -S "studio-rpc-usb-uart" -- -DZMK_CONFIG=/workspaces/zmk-config/config -DSHIELD="nice_view" -DZMK_EXTRA_MODULES='/workspaces/zmk-config'
 
 # Settings Reset
-west build -p -b "corne_choc_pro_right" -S "studio-rpc-usb-uart" -- -DZMK_CONFIG=/workspaces/zmk-config/config -DSHIELD="settings_reset" -DZMK_EXTRA_MODULES='/workspaces/zmk-config'
 west build -p -b "corne_choc_pro_left" -S "studio-rpc-usb-uart" -- -DZMK_CONFIG=/workspaces/zmk-config/config -DSHIELD="settings_reset" -DZMK_EXTRA_MODULES='/workspaces/zmk-config'
+west build -p -b "corne_choc_pro_right" -S "studio-rpc-usb-uart" -- -DZMK_CONFIG=/workspaces/zmk-config/config -DSHIELD="settings_reset" -DZMK_EXTRA_MODULES='/workspaces/zmk-config'
